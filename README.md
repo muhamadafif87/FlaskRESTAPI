@@ -115,4 +115,3 @@ Untuk **Postman**: buat request `POST /auth/login`, salin `access_token`, lalu p
 | `routes/auth.py` | Hash password, JWT, claims role, pesan login yang tidak membocorkan info |
 | `utils/auth.py` | Decorator otorisasi berbasis role |
 | `errors.py` | Error handler terpusat, kode status HTTP |
-| `tests/` | Test client Flask, fixture pytest, database in-memory |
